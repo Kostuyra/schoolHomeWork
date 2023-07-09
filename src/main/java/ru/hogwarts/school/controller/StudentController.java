@@ -47,7 +47,7 @@ public class StudentController {
         return ResponseEntity.ok(studentService.getAll());
     }
 
-    @GetMapping("minAge,maxAge")
+    @GetMapping("age")
     public ResponseEntity<List<Student>> getStudentsEquallyAge(@RequestParam int minAge, @RequestParam int maxAge) {
         return ResponseEntity.ok(studentService.findStudentsByAgeBetween(minAge, maxAge));
     }

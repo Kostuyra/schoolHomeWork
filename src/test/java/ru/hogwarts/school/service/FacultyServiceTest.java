@@ -1,4 +1,4 @@
-package ru.hogwarts.school.controller;
+package ru.hogwarts.school.service;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -8,7 +8,7 @@ import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import ru.hogwarts.school.model.Faculty;
 import ru.hogwarts.school.repository.FacultyRepository;
-import ru.hogwarts.school.service.FacultyService;
+
 
 import java.util.List;
 import java.util.Optional;
